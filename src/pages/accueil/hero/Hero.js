@@ -15,7 +15,7 @@ const hero = () => {
           <p>Trouvez le sujet qui définit votre parcours académique</p>
           <p> L'excellence commence par le bon sujet de mémoire.</p>
           <div class="button">
-            <button class=" btn " id="boutton">
+            <button class=" btn " id="boutton"  >
               Voir Plus <i class="fa fa-long-arrow-alt-right"></i>
             </button>
           </div>

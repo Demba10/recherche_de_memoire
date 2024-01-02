@@ -19,19 +19,22 @@ const Header = () => {
         <div class="collapse navbar-collapse" id="mainMenu">
           <ul class="navbar-nav ml-auto text-uppercase f1 -center">
             <li>
-              <a href="#home" class="active active-first text-center">Acceuil</a>
+              {/* <a href="#home" class="active active-first text-center">Acceuil</a> */}
+              <Link to='/'>Acceuil</Link>
             </li>
             <li>
               <a href="#about">Apropos</a>
             </li>
             <li>
-              <a href="#service">Sujets</a>
+              {/* <a href="#service">Sujets</a> */}
+              <Link to='/Sujet'>Sujets</Link>
             </li>
             <li>
               <a href="#project">Contact</a>
             </li>
             <li>
-              <a href="#team">Espace Perso</a>
+              <Link to='/Workspace'>Workspace</Link>
+
             </li>
            
           </ul>
