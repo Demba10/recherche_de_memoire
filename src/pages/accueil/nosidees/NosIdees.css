@@ -1,0 +1,73 @@
+body {
+    background-color: #eee
+}
+#bouton{
+    color: #001F3F !important;
+    color: #fff;
+  }
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre, ajustez selon vos besoins */
+background-color: aqua !important;
+}
+
+
+.c-details span {
+    font-weight: 300;
+    font-size: 13px;
+    
+
+}
+#nbe{
+    color: #001F3F !important;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px
+}
+
+.badge span {
+    background-color: #fffbec;
+    width: 60px;
+    height: 25px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    display: flex;
+    color: #785dfe;
+    justify-content: center;
+    align-items: center
+}
+
+.progress {
+    height: 10px;
+    border-radius: 10px
+}
+
+h1{
+    text-align: center;
+    margin: 0 auto;
+    color: aqua;
+}
+.progress div {
+    background-color: red
+}
+.progress-bar{
+    width: 50%
+}
+
+.text1 {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.text2 {
+    color: #a5aec0
+}

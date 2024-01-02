@@ -1,0 +1,45 @@
+.head {
+    background-image: url("../../../../public/images/bg.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 90vh;
+    padding-top: 20%;
+    padding-right: 50px;
+    color: #fff;
+  }
+  #boutton{
+    background-color: #001F3F ;
+    color: #fff;
+  }
+  .head #heading h3 {
+    color: #fff;
+  }
+  .head #heading {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  .margin {
+    margin-top: 530px;
+    background-color: rgb(255, 255, 255);
+    /* padding: 4px 0; */
+  }
+  @media screen and (max-width: 768px) {
+    .margin {
+      height: 40vh;
+    }
+    .head {
+      background-position: right;
+      padding-top: 50%;
+      height: 100vh;
+    }
+    .head .row {
+      width: 100%;
+    }
+  }
+  
