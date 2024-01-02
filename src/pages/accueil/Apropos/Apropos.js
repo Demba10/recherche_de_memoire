@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Apropos = () => {
     const div1Style = {
       position: 'absolute',
@@ -18,7 +19,7 @@ const Apropos = () => {
       left: '50px',
       width: '350px',
       height: '80px',
-      backgroundColor: 'blue',
+      backgroundColor: '#001F3F',
       borderRadius:'0 40px 40px 0',
       textAlign: 'center',
       // Autres styles CSS
@@ -62,7 +63,7 @@ const Apropos = () => {
         
       {/* Nouvelle div pour le texte - à gauche de l'image */}
       <div style={{ ...textStyle, position: 'absolute', left: '470px', top: '50px' }}>
-        <h2 style={{color: 'blue', }}>Nom de la plateforme</h2>
+        <h2 style={{color: '#001F3F', }}>Nom de la plateforme</h2>
         <p>
           Nous sommes dédiés à faciliter la recherche académique en offrant une plateforme innovante proposant une variété de sujets de mémoire. Notre mission est de simplifier le processus de sélection de thèmes pertinents et stimulants pour les étudiants et les chercheurs.
         </p>

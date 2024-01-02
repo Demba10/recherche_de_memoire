@@ -1,11 +1,15 @@
 import React from 'react';
-import Apropos  from "../src/sections/Apropos";
+import Apropos  from "./pages/accueil/Apropos/Apropos";
+import { BrowserRouter as Router, Routes,  } from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App">
-      
-      <Apropos></Apropos>
+      <Router>
+      <Apropos/>
+
+      </Router>
     </div>
   );
 
